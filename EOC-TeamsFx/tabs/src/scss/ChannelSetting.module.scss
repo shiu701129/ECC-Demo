@@ -148,40 +148,6 @@
       }
     }
   
-    .incident-details-description-area {
-      textArea {
-        // height: 83%;
-        height: 70%;
-        font: normal normal normal 16px/21px Segoe UI;
-        background-color: #ffffff;
-        color: #000000;
-  
-        @media screen and (max-width: 769px) {
-          height: 50%;
-        }
-      }
-  
-      textArea::placeholder {
-        font: normal normal normal 14px/21px Segoe UI;
-        color: #979593;
-        opacity: 1;
-      }
-    }
-  
-    .incident-details-reason-update-area {
-      textArea {
-        font: normal normal normal 16px/21px Segoe UI;
-        background-color: #ffffff;
-        color: #000000;
-      }
-  
-      textArea::placeholder {
-        font: normal normal normal 14px/21px Segoe UI;
-        color: #979593;
-        opacity: 1;
-      }
-    }
-  
     .dropdown-placeholder {
       .ui-dropdown__container {
         background-color: #ffffff !important;
@@ -336,18 +302,6 @@
     letter-spacing: 0px;
     opacity: 1;
   
-    div[id="dvDescSample"] {
-      @media screen and (max-width: 769px) {
-        margin-top: 5%;
-      }
-    }
-  
-    div[id="dvSeverity"] {
-      @media screen and (max-width: 769px) {
-        margin-top: 30px;
-      }
-    }
-  
     div[id="incident-details-path"] {
       width: 100%;
       height: auto;
@@ -389,12 +343,6 @@
       padding-bottom: 50px;
       opacity: 1;
   
-      label[id^="form-label-"] {
-        font: normal normal normal 16px/21px Segoe UI;
-        color: #000000;
-        opacity: 1;
-      }
-  
       div[class="incident-form-head-text"] {
         font: normal normal 400 22px/32px Segoe UI;
         color: #33344a;
@@ -402,155 +350,174 @@
         opacity: 1;
       }
   
-      div[class="incident-grid-item"] {
-        margin-bottom: 5%;
-  
-        label {
-          font: normal normal normal 16px/21px Segoe UI;
-          color: #000000;
-          opacity: 1;
-        }
-  
-        label::after {
-          content: " *";
-          color: #ff0000;
-        }
-  
-        label[class="FormInput-label"] {
-          margin-bottom: 0.25rem;
-        }
-  
-        @media screen and (max-width: 769px) {
-          label[class="severity-label"] {
-            margin-top: 15px;
-          }
-        }
-  
-        label[class="FormInput-label"]::after {
-          content: " *";
-          color: #ff0000;
-        }
-  
-        label[class="people-picker-label"] {
-          margin-bottom: 0.25rem;
-        }
-  
-        label[class="people-picker-label"]::after {
-          content: " *";
-          color: #ff0000;
-        }
-  
-        label[class="message-label"] {
-          color: #ce0000;
-        }
-  
-        label[class="message-label"]::after,
-        div[class^="ms-Checkbox"] > label[class^="ms-Checkbox-label"]::after,
-        label[class="severity-label"]::after {
-          content: "";
-        }
-  
-        mgt-people-picker[class="incident-details-people-picker"] {
-          --input-border: 2px #ffffff solid;
-  
-          --input-background-color: #ffffff;
-          /* input area background color */
-          --input-border-color--hover: #ffffff;
-          /* input area border hover color */
-          --input-border-color--focus: #ffffff;
-          /* input area border focus color */
-          --dropdown-background-color: #ffffff;
-          /* selection area background color */
-          --dropdown-item-hover-background: #f0f0f0;
-          /* person background color on hover */
-  
-          --selected-person-background-color: #f6f6f6;
-  
-          /* person item background color */
-  
-          --color: white;
-          /* input area border focus color */
-          --placeholder-color: #979593;
-          /* placeholder text color */
-          --placeholder-size: 16px;
-          --placeholder-color--focus: #979593;
-          /* placeholder text focus color */
-        }
-  
-        mgt-people-picker[class="incident-details-people-picker-disabled"] {
-          --input-border: 2px #d3d3d3 solid;
-  
-          --input-background-color: #d3d3d3;
-          /* input area background color */
-          --input-border-color--hover: #d3d3d3;
-          /* input area border hover color */
-          --input-border-color--focus: #d3d3d3;
-          /* input area border focus color */
-          --dropdown-background-color: #d3d3d3;
-          /* selection area background color */
-          --dropdown-item-hover-background: #f0f0f0;
-          /* person background color on hover */
-  
-          --selected-person-background-color: #d3d3d3;
-  
-          /* person item background color */
-  
-          --color: white;
-          /* input area border focus color */
-          --placeholder-color: #979593;
-          /* placeholder text color */
-          --placeholder-size: 16px;
-          --placeholder-color--focus: #979593;
-          /* placeholder text focus color */
-        }
-  
-        button[id="manage-role-disabled-btn"] {
-          background-color: auto;
-  
-          img[class="manage-role-btn-icon"] {
-            width: 20px;
-            height: 20px;
-          }
-  
-          label[class="manage-role-btn-label"] {
-            cursor: pointer;
-            font: normal normal bold 18px/24px Segoe UI;
-            color: #ffffff;
-            text-transform: capitalize;
-            opacity: 1;
-          }
-  
-          label[class="manage-role-btn-label"]::after {
-            content: "";
-          }
-        }
-  
-        button[id="manage-role-btn"] {
-          background-color: rgb(88, 90, 150);
-          opacity: 1;
-  
-          img[class="manage-role-btn-icon"] {
-            width: 20px;
-            height: 20px;
-          }
-  
-          label[class="manage-role-btn-label"] {
-            cursor: pointer;
-            font: normal normal bold 18px/24px Segoe UI;
-            color: #ffffff;
-            text-transform: capitalize;
-            opacity: 1;
-          }
-  
-          label[class="manage-role-btn-label"]::after {
-            content: "";
-          }
-        }
-  
-        button[id="manage-role-btn"]:hover {
-          opacity: 0.9;
-        }
+      label[class="message-label"] {
+        color: #ce0000;
       }
+  
+      label[class="message-label"]::after,
+      div[class^="ms-Checkbox"] > label[class^="ms-Checkbox-label"]::after,
+      label[class="severity-label"]::after {
+        content: "";
+      }
+  
+      // div[class="incident-grid-item"] {
+      //     margin-bottom: 5%;
+  
+      //     label {
+      //         font: normal normal normal 16px/21px Segoe UI;
+      //         color: #000000;
+      //         opacity: 1;
+      //     }
+  
+      //     label::after {
+      //         content: " *";
+      //         color: #FF0000;
+      //     }
+  
+      //     label[class="FormInput-label"] {
+      //         margin-bottom: 0.25rem;
+      //     }
+  
+      //     @media screen and (max-width:769px) {
+      //         label[class="severity-label"] {
+      //             margin-top: 15px;
+      //         }
+      //     }
+  
+      //     label[class="FormInput-label"]::after {
+      //         content: " *";
+      //         color: #FF0000;
+      //     }
+  
+      //     label[class="people-picker-label"] {
+      //         margin-bottom: 0.25rem;
+      //     }
+  
+      //     label[class="people-picker-label"]::after {
+      //         content: " *";
+      //         color: #FF0000;
+      //     }
+  
+      //     label[class="message-label"] {
+      //         color: #ce0000;
+      //     }
+  
+      //     label[class="message-label"]::after,
+      //     div[class^="ms-Checkbox"]>label[class^="ms-Checkbox-label"]::after,
+      //     label[class="severity-label"]::after {
+      //         content: "";
+      //     }
+  
+      //     mgt-people-picker[class="incident-details-people-picker"] {
+  
+      //         --input-border: 2px #FFFFFF solid;
+  
+      //         --input-background-color: #FFFFFF;
+      //         /* input area background color */
+      //         --input-border-color--hover: #FFFFFF;
+      //         /* input area border hover color */
+      //         --input-border-color--focus: #FFFFFF;
+      //         /* input area border focus color */
+      //         --dropdown-background-color: #FFFFFF;
+      //         /* selection area background color */
+      //         --dropdown-item-hover-background: #F0F0F0;
+      //         /* person background color on hover */
+  
+      //         --selected-person-background-color: #f6f6f6;
+  
+      //         /* person item background color */
+  
+      //         --color: white;
+      //         /* input area border focus color */
+      //         --placeholder-color: #979593;
+      //         /* placeholder text color */
+      //         --placeholder-size: 16px;
+      //         --placeholder-color--focus: #979593;
+      //         /* placeholder text focus color */
+      //     }
+  
+      //     mgt-people-picker[class="incident-details-people-picker-disabled"] {
+  
+      //         --input-border: 2px #D3D3D3 solid;
+  
+      //         --input-background-color: #D3D3D3;
+      //         /* input area background color */
+      //         --input-border-color--hover: #D3D3D3;
+      //         /* input area border hover color */
+      //         --input-border-color--focus: #D3D3D3;
+      //         /* input area border focus color */
+      //         --dropdown-background-color: #D3D3D3;
+      //         /* selection area background color */
+      //         --dropdown-item-hover-background: #F0F0F0;
+      //         /* person background color on hover */
+  
+      //         --selected-person-background-color: #D3D3D3;
+  
+      //         /* person item background color */
+  
+      //         --color: white;
+      //         /* input area border focus color */
+      //         --placeholder-color: #979593;
+      //         /* placeholder text color */
+      //         --placeholder-size: 16px;
+      //         --placeholder-color--focus: #979593;
+      //         /* placeholder text focus color */
+      //     }
+  
+      //     button[id="manage-role-disabled-btn"] {
+      //         background-color: auto;
+  
+      //         img[class="manage-role-btn-icon"] {
+      //             width: 20px;
+      //             height: 20px;
+      //         }
+  
+      //         label[class="manage-role-btn-label"] {
+      //             cursor: pointer;
+      //             font: normal normal bold 18px/24px Segoe UI;
+      //             color: #FFFFFF;
+      //             text-transform: capitalize;
+      //             opacity: 1;
+      //         }
+  
+      //         label[class="manage-role-btn-label"]::after {
+      //             content: "";
+      //         }
+      //     }
+  
+      //     button[id="manage-role-btn"] {
+      //         background-color: rgb(88, 90, 150);
+      //         opacity: 1;
+  
+      //         img[class="manage-role-btn-icon"] {
+      //             width: 20px;
+      //             height: 20px;
+      //         }
+  
+      //         label[class="manage-role-btn-label"] {
+      //             cursor: pointer;
+      //             font: normal normal bold 18px/24px Segoe UI;
+      //             color: #FFFFFF;
+      //             text-transform: capitalize;
+      //             opacity: 1;
+      //         }
+  
+      //         label[class="manage-role-btn-label"]::after {
+      //             content: "";
+      //         }
+      //     }
+  
+      //     button[id="manage-role-btn"]:hover {
+      //         opacity: 0.9
+      //     }
+  
+      // }
+  
+    //   @media screen and (max-width: 991px) {
+    //     label[class="FormInput-label"] {
+    //       margin-top: 15px;
+    //     }
+    //   }
   
       div[class="norequired"] {
         label[class="FormInput-label"]::after {

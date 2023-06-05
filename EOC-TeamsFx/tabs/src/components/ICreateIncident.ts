@@ -19,6 +19,7 @@ export class IncidentEntity implements IIncidentEntity {
     public incidentId!: string;
     public incidentName!: string;
     public incidentStatus!: string;
+    public channelTemplate!: string;
     public location!: string;
     public incidentType!: string;
     public incidentDesc!: string;
@@ -133,9 +134,9 @@ export interface IOpenShift {
 export interface IInputValidationStates {
     incidentNameHasError: boolean;
     incidentStatusHasError: boolean;
-    incidentLocationHasError: boolean;
+    // incidentLocationHasError: boolean;
     incidentTypeHasError: boolean;
-    incidentDescriptionHasError: boolean;
+    // incidentDescriptionHasError: boolean;
     incidentStartDateTimeHasError: boolean;
     incidentCommandarHasError: boolean;
     incidentReasonForUpdateHasError: boolean;

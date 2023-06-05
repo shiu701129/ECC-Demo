@@ -1,4 +1,5 @@
 {
+    "spoSiteBaseUrl": "https://systexsoftwarepoc.sharepoint.com/sites",
     "incidentsList": "TEOC-IncidentTransaction",
     "assessmentsList": "TEOC-Assessments",
     "incStatusList": "TEOC-IncidentStatus",
@@ -7,6 +8,8 @@
     "teamNameConfigList":"TEOC-Config",
     "roleDefaultList":"TEOC-RoleDefaultValues",
     "incidentTypeDefaultRolesList":"TEOC-IncidentTypeDefaultRoles",
+    "channelTemplateList":"TEOC-ChannelTemplate",
+    "descriptionList":"TEOC-Description",
     "lists": [
         {
             "listName": "TEOC-Assessments",

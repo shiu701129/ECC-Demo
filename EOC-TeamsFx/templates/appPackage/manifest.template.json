@@ -11,7 +11,7 @@
         "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
     },
     "icons": {
-        "color": "resources/color.png",
+        "color": "resources/color_n.png",
         "outline": "resources/outline.png"
     },
     "name": {
@@ -38,7 +38,7 @@
     "staticTabs": [
         {
             "entityId": "index",
-            "name": "Team EOC",
+            "name": "ECC",
             "contentUrl": "{{{state.fx-resource-frontend-hosting.endpoint}}}/index.html#/tab",
             "websiteUrl": "{{{state.fx-resource-frontend-hosting.endpoint}}}/index.html#/tab",
             "scopes": [

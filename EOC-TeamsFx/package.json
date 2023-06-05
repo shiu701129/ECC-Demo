@@ -1,5 +1,5 @@
 {
-    "name": "MIFTEOC",
+    "name": "ECC",
     "version": "0.0.1",
     "description": "",
     "author": "",
@@ -10,12 +10,14 @@
     },
     "devDependencies": {
         "@microsoft/teamsfx-cli": "^0.14.0",
+        "@types/file-saver": "^2.0.5",
         "moment": "^2.29.4",
         "sass": "^1.44.0"
     },
     "license": "MIT",
     "dependencies": {
         "@pnp/sp": "^2.11.0",
-        "react-slider": "^2.0.1"
+        "react-slider": "^2.0.1",
+        "sheetjs-style": "^0.15.8"
     }
 }

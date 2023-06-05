@@ -33,7 +33,8 @@
         "sass": "^1.49.0",
         "simple-get": "^4.0.1",
         "terser": "^5.15.0",
-        "uuid": "^8.3.2"
+        "uuid": "^8.3.2",
+        "file-saver": "^2.0.5" 
     },
     "resolutions": {
         "simple-get": "^4.0.1",
@@ -58,6 +59,7 @@
         "@types/react-router-dom": "^5.1.7",
         "@types/react-slider": "^1.3.1",
         "@types/uuid": "^8.3.3",
+        "@types/file-saver": "^2.0.5",
         "nth-check": "2.0.1",
         "typescript": "^4.1.2",
         "underscore": "1.12.1"
