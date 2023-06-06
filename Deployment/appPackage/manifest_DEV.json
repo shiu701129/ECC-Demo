@@ -27,7 +27,7 @@
   "composeExtensions": [],
   "configurableTabs": [
     {
-      "configurationUrl": "https://ecccenter.azurewebsites.net/index.html#/config",
+      "configurationUrl": "https://eccdemo.azurewebsites.net/index.html#/config",
       "canUpdateConfiguration": true,
       "scopes": [
         "team",
@@ -39,8 +39,8 @@
     {
       "entityId": "index",
       "name": "ECC",
-      "contentUrl": "https://ecccenter.azurewebsites.net/index.html#/tab",
-      "websiteUrl": "https://ecccenter.azurewebsites.net/index.html#/tab",
+      "contentUrl": "https://eccdemo.azurewebsites.net/index.html#/tab",
+      "websiteUrl": "https://eccdemo.azurewebsites.net/index.html#/tab",
       "scopes": [
         "personal"
       ]
@@ -51,10 +51,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "ecccenter.azurewebsites.net"
+    "eccdemo.azurewebsites.net"
   ],
   "webApplicationInfo": {
-    "id": "73234b7f-237c-4f13-bacd-d28ff30778ba",
-    "resource": "api://ecccenter.azurewebsites.net/73234b7f-237c-4f13-bacd-d28ff30778ba"
+    "id": "98f4c23e-f82e-4614-a87d-650821d23c86",
+    "resource": "api://eccdemo.azurewebsites.net/98f4c23e-f82e-4614-a87d-650821d23c86"
   }
 }
