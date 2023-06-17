@@ -2042,10 +2042,9 @@ class IncidentDetails extends React.PureComponent<IIncidentDetailsProps, IIncide
               //rootSiteGraphEndpoint = "/sites/root"
               const teamSiteURLGraphEndpoint =
                 graphConfig.spGroupGraphEndpoint +
-                "/" +
                 groupInfo.id +
                 graphConfig.spRootSiteGraphEndpoint;
-              console.log(constants.infoLogPrefix + "api url: " + teamSiteURLGraphEndpoint);
+              console.log(constants.infoLogPrefix + "get team site api url: " + teamSiteURLGraphEndpoint);
               // retrieve team site details
               const siteDetails = await this.dataService.getGraphData(
                 teamSiteURLGraphEndpoint,
