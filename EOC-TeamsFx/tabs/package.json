@@ -67,7 +67,7 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build --max_old_space_size=16384",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
