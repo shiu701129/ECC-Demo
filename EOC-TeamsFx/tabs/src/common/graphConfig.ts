@@ -1,5 +1,7 @@
 export const rootSiteGraphEndpoint = "https://graph.microsoft.com/v1.0/sites/root";
 export const spSiteGraphEndpoint = "https://graph.microsoft.com/v1.0/sites/";
+export const spGroupGraphEndpoint = "https://graph.microsoft.com/v1.0/groups/";
+export const spRootSiteGraphEndpoint = "/sites/root";
 export const meGraphEndpoint = "/me";
 export const teamGroupsGraphEndpoint = "/groups";
 export const teamGraphEndpoint = "/team";
