@@ -1,6 +1,6 @@
 {
-    "spoSiteBaseUrlUAT": "https://ctbcglobal.sharepoint.com/sites",
-    "spoSiteBaseUrl": "https://systexsoftwarepoc.sharepoint.com/sites",
+    "spoSiteBaseUrl": "https://ctbcglobal.sharepoint.com/sites",
+    "spoSiteBaseUrlLOCAL": "https://systexsoftwarepoc.sharepoint.com/sites",
     "incidentsList": "TEOC-IncidentTransaction",
     "assessmentsList": "TEOC-Assessments",
     "incStatusList": "TEOC-IncidentStatus",
